@@ -137,7 +137,6 @@ table {
 .container {
   max-width: 640px;
   margin: auto;
-  /* overflow: hidden; */
 }
 img {
   vertical-align: top;
