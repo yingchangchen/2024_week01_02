@@ -133,7 +133,15 @@ table {
 }
 
 /*---------------------------------------------*/
-
+* {
+  line-height: 1.5;
+  font-size: 0;
+}
+.pic,
+.txt,
+.ad {
+  font-size: 0;
+}
 .container {
   max-width: 640px;
   margin: auto;
@@ -150,7 +158,7 @@ img {
   display: block;
   clear: both;
 }
-.main-content-lis .item {
+.main-content-list .item {
   margin-bottom: 24px;
 }
 .main-content-list .pic {
@@ -164,13 +172,21 @@ img {
 }
 .main-content-list .txt {
   display: inline-block;
+
   max-width: 288px;
   margin-right: 20px;
+}
+.main-content-list .txt h2 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.main-content-list .txt p {
+  font-size: 16px;
 }
 footer {
   background-color: #000;
   color: #fff;
-  line-height: 1.5;
+
   min-height: 120px;
   text-align: center;
   display: flex;
